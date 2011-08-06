@@ -1,0 +1,164 @@
+@media all and (max-width: 1024px) {body{zoom:0.75;}}
+
+/* Color via http://www.zurb.com/playground/radioactive-buttons */
+@-webkit-keyframes bluePulse {
+    from { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
+    50% { background-color: #2daebf; -webkit-box-shadow: 0 0 18px #2daebf; }
+    to { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+@-moz-keyframes bluePulse {
+    from { background-color: #007d9a; -moz-box-shadow: 0 0 9px #333; }
+    50% { background-color: #2daebf; -moz-box-shadow: 0 0 18px #2daebf; }
+    to { background-color: #007d9a; -moz-box-shadow: 0 0 9px #333; }
+}
+
+@-webkit-keyframes pulse {
+    from {-webkit-box-shadow:inset 0 0 9px #2daebf; }
+    50% {-webkit-box-shadow:inset 0 0 18px #91bd09; }
+    to { -webkit-box-shadow:inset 0 0 9px #2daebf; }
+}
+
+@-moz-keyframes pulse {
+    from {-moz-box-shadow:inset 0 0 9px #2daebf; }
+    50% {-moz-box-shadow:inset 0 0 18px #91bd09; }
+    to { -moz-box-shadow:inset 0 0 9px #2daebf; }
+}
+
+body{
+  background:url('../res/bg.png') repeat;
+  padding:1em 0;
+}
+
+html, body, section, header, figure, article, div, p, h1, h2{
+  margin:0;padding:0;
+}
+
+header h1, section h2{
+  clear:both;
+  width:100%;
+  display:block;
+  text-align:center;
+  font: bold 50px/1 'PT Sans Narrow', sans-serif;
+  color: #3C3D40;
+  text-shadow: 0 1px 1px #8D8E90;
+  margin-bottom:0.5em;
+}
+
+  header h1{padding-top:0.5em;}
+
+.container {
+  width:990px;
+  margin:0 auto;
+  clear:both;
+}
+
+.container > div, article > div, article > figure img{
+  float:left;
+
+  box-shadow: 0 0 50px #3C3D40;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  padding: 10px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width:448px;
+  height:672px;
+
+  margin:0 20px;
+  position:relative;
+}
+
+  .iPhone, article > figure img{
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -ie-background-size:100% 100%;
+    background-size:100% 100%;
+
+    background-repeat:none;
+    background-position:50% 50%;
+
+    -moz-background-clip:padding;
+    -webkit-background-clip:padding;
+    background-clip:padding;
+
+    
+  }
+
+
+  .container > div:last-child, article > div{
+    background:#ffffff url('../res/logo.png') no-repeat 99% 99%;
+    font-family: 'Architects Daughter', cursive;
+    font-size:20px;
+  }
+
+    #t p, article p{
+      padding-bottom:0.5em;
+      text-align: justify;
+      word-spacing: -0.15em;
+    }
+
+    #t p.c{
+      display:none;
+    }
+
+    #t h2, article h2{
+      word-spacing: -0.25em;
+    }
+
+    .pulse{
+      cursor:pointer;
+       -webkit-animation: bluePulse 4s linear 0s infinite;
+       -moz-animation: bluePulse 4s linear 0s infinite;
+
+    }
+
+
+
+
+.zoomer{
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:0px;
+  left:0px;
+
+  -webkit-animation: pulse 4s linear 0s infinite;
+  -moz-animation: pulse 4s linear 0s infinite;
+  border-radius:10px;
+}
+
+section{
+  padding-top:2em;
+  float: left;
+  width: 100%;
+}
+
+
+section article{
+  width: 990px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom:1em;
+}
+
+article > figure, article > div{
+  display:block;
+  float:left;
+  margin-bottom: 2em;
+}
+
+a, a:visited{
+  color: #2276BB;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}

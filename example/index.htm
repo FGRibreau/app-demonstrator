@@ -1,0 +1,202 @@
+<!--
+  ATTENTION
+
+  Cette page à été développée entre 00h et 2h du matin le 28 Juillet 2011
+  Tout est parti d'une petite idée puis d'une expérimentation (avancement actuel)
+  TODO:
+    ->  Réaliser les animations uniquement avec du CSS3 (plutôt que jQuery animate)
+-->
+<html>
+<head>
+  <title>Test interactif de l'application iPhone MonNuage</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</head>
+<body>
+
+<header>
+  <h1>Mon test de l'applicaton iPhone MonNuage</h1>
+</header>
+
+<div class="container">
+  <div id="i" class="iPhone">
+  </div>
+
+  <div><span id="t"></span></div>
+</div>
+
+<section id="myApp">
+  <h2>Version texte</h2>
+
+  <article>
+    <figure id="001">
+      <img src="screens/001.png"/>
+    </figure>
+    <div>
+      <p>Aujourd'hui, je vais tester avec vous l'application <a href="http://www.monnuage.fr/mobile">iPhone MonNuage</a> !</p>
+    </div>
+  </article>
+
+  
+  <article>
+    <figure id="002">
+      <img src="screens/002.png"/>
+    </figure>
+    <div>
+      <p>Cliquez sur <strong>Démarrer</strong> pour lancer la visite interactive de l'application :)</p>
+    </div>
+
+  </article>
+
+  <article>
+    <figure id="003">
+      <img src="screens/003.png"/>
+    </figure>
+    <div>
+      <p>Pour le moment rien à signaler, le formulaire de connexion habituel...</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="004">
+      <img src="screens/004.png"/>
+    </figure>
+    <div>
+      <p>Hop, j'entre mes identifiants MonNuage.</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="005">
+      <img src="screens/005.png"/>
+    </figure>
+
+    <div>
+      <h1>Et nous voici sur la home !</h1>
+      <p class='c c0'>L'application nous géolocalise...</p>
+      <p class='c c1'><strong>J'aime</strong> le diaporama de photos des monuments et endroits alentours.</p>
+      <p class='c c2'><strong>J'aime</strong> la simplicité des menus.</p>
+      <p class='c c3'>Regardons de plus près ce que nous propose le menu <strong>A voir</strong>... un petit click s'il vous plait ?</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="006">
+      <img src="screens/006.png"/>
+    </figure>
+    
+    <div>
+      <h1>Liste des lieux</h1>
+      <p class='c c0'>Très bonne idée de donner la distance à laquel se situe le lieu !</p>
+      <p class='c c1'>C'est vraiment idéal pour découvrir un endroit sympa entre deux rendez-vous lors d'un déplacement par exemple.</p>
+      <p class='c c2'>Tiens, regardons la fiche du <strong>Châteaux des ducs de bretagne</strong> voulez-vous ?</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="007">
+      <img src="screens/007.png"/>
+    </figure>
+
+    <div>
+      <h1>Fiche d'un lieu</h1>
+      <p class='c c0'>Un click sur cette photo et l'application affichera un album des photos prisent par les utilisateurs</p>
+      <p class='c c1'>Il est possible de faire défiler la page pour voir les retours d'expériences des utilisateurs. Le chateau étant très connu à Nantes, 15 personnes y ont laissé un commentaire. En parcourant d'autres lieux sur l'application j'ai pu remarqué que la communauté MonNuage est très active et surtout que les commentaires sont vraiment précis et offrent même parfois un semblant de cours d'histoire ou une anecdote (exemple <a href='http://www.monnuage.fr/point-d-interet/parc-du-grand-blottereau-a5743'>Parc du Grand Blottereau</a>)</p>
+      <p class='c c2'>Un coup d'oeil sur les options ?</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="008">
+      <img src="screens/008.png"/>
+    </figure>
+    
+    <div>
+      <h1>Options sur un lieu</h1>
+      <p class='c0'>Voyons voir les informations dont dispose MonNuage sur ce lieu...</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="009">
+      <img src="screens/009.png"/>
+    </figure>
+    
+    <div>
+      <h1>Informations sur un lieu</h1>
+      <p>Mais c'est royale ! </p>
+      <p>Donc si l'on résume. J'arrive dans une ville pour la première fois. J'ouvre l'application MonNuage, je trouve un endroit à visiter et l'application me donne toutes les informations dont j'ai besoin. Plus besoin de Google ! Parfait !</p>
+      <p>A noter qu'il est possible de trouver un itinéraire (via Plan) en cliquant directement sur l'adresse.</p>
+    </div>
+  </article>
+
+  <article>
+    <figure id="end">
+      <img src="screens/001.png"/>
+    </figure>
+    
+    <div>
+      <h1>Le mot de la fin.</h1>
+      <p>Je suis vraiment impressionné par la qualité des retours d'expériences de la communauté MonNuage et l'application iPhone semble être le compagnon idéal pour chaque voyage (lieux intéressants aux alentours, accès rapides aux informations en 3 clicks maximum). <a href="http://www.monnuage.fr/mobile">A tester donc</a> !</p>
+      <p>--<a href="http://twitter.com/FGRibreau">@FGRibreau</a></p>
+    </div>
+  </article>
+</section>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../lib/AppDemonstrator.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+
+  var s = new Scene($('#i'), $('#t'), $('#myApp'), './screens/');
+
+  s.add('001', {
+    timeout: [1000, {goto:s.goto('002'),transition:'fadeOut', duration:100}]
+
+  }).add('002', {
+    zoomer:[[556]],
+    onClick: [0, {goto:s.goto('003'),transition:'fadeOut', duration:100}]
+
+  }).add('003', {
+    zoomer:[[189, 50]],
+    timeout: [2500, {goto:s.goto('004'),transition:'fadeOut', duration:100}]
+
+  }).add('004', {
+    zoomer:[[179, 50, 250],[236, 50, 250],[353, 70, 250, 300, 73]],
+    timeout: [2000, {goto:s.goto('005'),transition:'fadeOut', duration:100}]
+
+  }).add('005', {
+    zoomer:[[335, 50,2000],[90,236, 2000], [400, 203, 2000],[400, 64]],
+    onClick: [0, {goto:s.goto('006'),transition:'fadeOut', duration:100}]
+
+  }).add('006', {
+    zoomer:[[186, 50, 4000, 100, 346], [316, 50, 4000, 100, 346], [179, 131]],
+    onClick: [0, {goto:s.goto('007'),transition:'fadeOut', duration:100}]
+
+  }).add('007', {
+    zoomer:[[90, 231, 2000], [424, 246, 6000], [326, 100]],
+    onClick: [0, {goto:s.goto('008'),transition:'fadeOut', duration:100}]
+
+  }).add('008', {
+    zoomer:[[410, 100, 1000, 150]],
+    zoomerOnComplete:[2000, {goto:s.goto('009'),transition:'fadeOut', duration:100}]
+
+  }).add('009', {
+    zoomer:[[26, 65, 1000, 100]],
+    onClick: [0, {goto:s.goto('010'),transition:'fadeOut', duration:100}]
+
+  }).add('end', {
+    bg:'001',
+    onLoad:function(){
+      this._zoomerClean();
+    }
+  }).start();
+});
+</script>
+</body>
+</html>
