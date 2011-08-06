@@ -1,6 +1,6 @@
 ### (Proof of Concept) App Demonstrator
 
-App Demonstrator est un petit Proof of Concept (réalisé entre 00h et 2h du matin le 28 Juillet 2011) pour le concours [MonNuage](blog.monnuage.fr/2011/07/26/jeu-concours-application-iphone-monnuage/).
+App Demonstrator est un petit Proof of Concept (réalisé entre 00h et 2h du matin le 28 Juillet 2011) pour le concours [MonNuage](http://blog.monnuage.fr/2011/07/26/jeu-concours-application-iphone-monnuage/).
 
 ### Utilisation
 HTML:
@@ -51,9 +51,10 @@ JavaScript:
 	
 	});
 
-### [Demo](fgribreau.com/monnuage/)
+### [Demo](http://fgribreau.com/monnuage/)
 
 ### Liste d'améliorations possibles:
+ * Commenter le code + Tests
  * Refactorer le constructeur de `Scene` en `Scene($container [, option])`, créer les éléments au besoin
  * Transférer l'id de la `Frame` directement sur l'`<article>`
  * Parser les articles de la page pour ajouter les frames (utiliser HTML5 data-*) (plus besoin de JS)
