@@ -1,6 +1,6 @@
 ### (Proof of Concept) App Demonstrator
 
-App Demonstrator est un petit Proof of Concept (réalisé entre 00h et 2h du matin le 28 Juillet 2011) pour le concours [MonNuage](http://blog.monnuage.fr/2011/07/26/jeu-concours-application-iphone-monnuage/).
+App Demonstrator est un petit Proof of Concept (réalisé entre 00h et 2h du matin le 28 Juillet 2011) pour le concours [MonNuage](http://blog.monnuage.fr/2011/07/26/jeu-concours-application-iphone-monnuage/#comment-16105).
 
 ### Utilisation
 HTML:
