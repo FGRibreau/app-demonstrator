@@ -1,4 +1,4 @@
-### (Proof of Concept) App Demonstrator
+### (Proof of Concept) App Demonstrator [![Gittip](http://badgr.co/gittip/fgribreau.png)](https://www.gittip.com/fgribreau/)
 
 App Demonstrator est un petit Proof of Concept (réalisé entre 00h et 2h du matin le 28 Juillet 2011) pour le concours [MonNuage](http://blog.monnuage.fr/2011/07/26/jeu-concours-application-iphone-monnuage/#comment-16105).
 
